@@ -2,6 +2,11 @@
 #include <Wire.h> 
 #include "SparkFun_MMA8452Q.h" 
 
+const int PWB =10;
+const int BIN1 = 9;
+const int BIN2 =8;
+
+
 // initialisation of serial input and ouput ports for the bluetooth module
 SoftwareSerial BTSerial(3,2);  // RX, TX (must match your wiring) 
 
